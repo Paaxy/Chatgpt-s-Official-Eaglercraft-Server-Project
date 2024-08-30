@@ -1,0 +1,38 @@
+config-version: 12
+settings:
+  debug: false
+  save-user-cache-on-stop-only: false
+  bungeecord: true
+  sample-count: 12
+  player-shuffle: 0
+  user-cache-size: 1000
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
+  netty-threads: 4
+  attribute:
+    maxHealth:
+      max: 2048.0
+    movementSpeed:
+      max: 2048.0
+    attackDamage:
+      max: 2048.0
+  late-bind: false
+  bungeecord-addresses:
+    - 127.0.0.1
+  moved-wrongly-threshold: 0.0625
+  moved-too-quickly-multiplier: 10.0
+  item-dirty-ticks: 20
+  async-chunks: true
+  messages:
+    whitelist: You are not whitelisted on this server!
+    unknown-command: Unknown command. Type "/help" for help.
+    server-full: The server is full!
+    outdated-client: Outdated client! Please use {0}
+    outdated-server: Outdated server! I'm still on {0}
+    restart: Server is restarting
+  silent-command-block-console: true
+  chunk-gc:
+    period-in-ticks: 400
+    load-threshold: 300
+  player-auto-save: 6000
