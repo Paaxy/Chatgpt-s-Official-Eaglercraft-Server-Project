@@ -1,0 +1,19 @@
+settings:
+  allow-end: false
+  warn-on-overload: true
+  permissions-file: permissions.yml
+  update-folder: update
+  connection-throttle: -1
+  query-plugins: true
+spawn-limits:
+  monsters: 70
+  animals: 10
+  water-animals: 5
+  ambient: 1
+chunk-gc:
+  period-in-ticks: 400
+ticks-per:
+  animal-spawns: 400
+  monster-spawns: 1
+  autosave: 6000
+aliases: now-in-commands.yml
