@@ -1,0 +1,12 @@
+permissions:
+  default:
+    description: Default group
+    default: true
+    children:
+      bukkit.command.kill: true
+      bukkit.command.version: true
+  admin:
+    description: Admin group
+    default: false
+    children:
+      '*': true
