@@ -1,0 +1,16 @@
+redis:
+  address: localhost:6379
+  password: ''
+  networkid: my_network
+  timeout: 2000
+  master: true
+servers:
+  lobby:
+    address: localhost:25566
+    restricted: false
+  survival:
+    address: localhost:25567
+    restricted: false
+  minigames:
+    address: localhost:25568
+    restricted: false
