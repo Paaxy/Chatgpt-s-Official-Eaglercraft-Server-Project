@@ -1,0 +1,10 @@
+[
+  {
+    "uuid": "player-uuid",
+    "name": "playername",
+    "created": "2024-08-26 12:00:00 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned for griefing"
+  }
+]
