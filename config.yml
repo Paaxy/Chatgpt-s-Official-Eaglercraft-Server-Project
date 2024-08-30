@@ -1,0 +1,42 @@
+server_connect_timeout: 5000
+listeners:
+  - query_port: 25577
+    motd: '&1Welcome to the Eaglercraft Network!'
+    priorities:
+      - lobby
+    bind_local_address: true
+    tab_list: GLOBAL_PING
+    query_enabled: false
+    proxy_protocol: false
+    ping_passthrough: false
+    host: 0.0.0.0:25565
+    forced_hosts:
+      pvp.md-5.net: pvp
+    max_players: 100
+    tab_size: 60
+    force_default_server: false
+    bind_local_address: true
+    motd: '&1Another Bungee server'
+    texture_size: 16
+    player_limit: -1
+    timeout: 30000
+servers:
+  lobby:
+    motd: '&1Just another BungeeCord - Forced Host'
+    address: localhost:25566
+    restricted: false
+  survival:
+    motd: '&1Survival Server'
+    address: localhost:25567
+    restricted: false
+  minigames:
+    motd: '&1Minigames Server'
+    address: localhost:25568
+    restricted: false
+ip_forward: true
+network_compression_threshold: 256
+online_mode: false
+log_commands: false
+disabled_commands:
+  - disabledcommandhere
+connection_throttle: -1
